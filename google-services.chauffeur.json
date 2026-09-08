@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "89409043362",
+    "project_id": "taga-chauffeur",
+    "storage_bucket": "taga-chauffeur.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89409043362:android:d59a1d6754b850b680d0fb",
+        "android_client_info": {
+          "package_name": "ml.taga.chauffeu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmAlME9TkoFnOr_gge3stE12sjUWMrdvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89409043362:android:38663343cd9181c780d0fb",
+        "android_client_info": {
+          "package_name": "ml.taga.chauffeur"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmAlME9TkoFnOr_gge3stE12sjUWMrdvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89409043362:android:94a859ce2e2ebe8f80d0fb",
+        "android_client_info": {
+          "package_name": "ml.tagamali.driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmAlME9TkoFnOr_gge3stE12sjUWMrdvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

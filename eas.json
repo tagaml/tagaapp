@@ -1,0 +1,36 @@
+{
+  "cli": {
+    "version": ">= 12.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "client-preview": {
+      "distribution": "internal",
+      "channel": "client",
+      "android": { "buildType": "apk" },
+      "env": { "APP_VARIANT": "client" }
+    },
+    "chauffeur-preview": {
+      "distribution": "internal",
+      "android": { "buildType": "apk" },
+      "env": { "APP_VARIANT": "chauffeur" }
+    },
+    "client-production": {
+      "autoIncrement": true,
+      "channel": "client",
+      "android": { "buildType": "app-bundle" },
+      "env": { "APP_VARIANT": "client" }
+    },
+    "chauffeur-production": {
+      "autoIncrement": true,
+      "channel": "chauffeur",
+      "android": { "buildType": "app-bundle" },
+      "env": { "APP_VARIANT": "chauffeur" }
+    }
+  },
+  "submit": {
+    "production": {},
+    "client-production": {},
+    "chauffeur-production": {}
+  }
+}

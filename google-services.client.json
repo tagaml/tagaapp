@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "473338604180",
+    "project_id": "taga-client",
+    "storage_bucket": "taga-client.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473338604180:android:ea3e3a6617c89ca8b1a281",
+        "android_client_info": {
+          "package_name": "ml.taga.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANfpVKkq92fQ5fiUiCHKhCq8hvV1XJp3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473338604180:android:0c4883d88d818e22b1a281",
+        "android_client_info": {
+          "package_name": "ml.tagamali.rider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANfpVKkq92fQ5fiUiCHKhCq8hvV1XJp3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

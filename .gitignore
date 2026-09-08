@@ -1,0 +1,22 @@
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+.DS_Store
+*.orig.*
+/ios
+/android
+.env
+.env*.local
+*.pem
+
+# Secrets push / Firebase — NE JAMAIS committer
+*-firebase-adminsdk-*.json
+
+# Artefacts de build (EAS local) — jamais dans git
+*.ipa
+*.aab
+*.apk
+build-*.ipa
+build-*.aab

@@ -1,0 +1,98 @@
+{
+  "expo": {
+    "name": "Taga",
+    "slug": "taga",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "taga",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E84B1F"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ml.taga.app",
+      "config": {
+        "googleMapsApiKey": "AIzaSyCE84Q_O9MPeSizT8jikR_bMsn7uq4_iLo"
+      },
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "UIBackgroundModes": [
+          "location",
+          "remote-notification"
+        ],
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Taga garde ta position active en arrière-plan quand tu es en ligne, pour t'envoyer les demandes de courses proches même écran verrouillé.",
+        "NSLocationAlwaysUsageDescription": "Taga garde ta position active en arrière-plan quand tu es en ligne, pour t'envoyer les demandes de courses proches même écran verrouillé."
+      },
+      "entitlements": {
+        "aps-environment": "production",
+        "com.apple.developer.usernotifications.time-sensitive": true
+      }
+    },
+    "android": {
+      "package": "ml.taga.app",
+      "softwareKeyboardLayoutMode": "resize",
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": {
+        "backgroundColor": "#161310",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_LOCATION",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Taga utilise ta position pour te localiser et calculer ton trajet.",
+          "locationAlwaysAndWhenInUsePermission": "Taga garde ta position active en arrière-plan quand tu es en ligne, pour t'envoyer les demandes de courses proches même écran verrouillé.",
+          "isIosBackgroundLocationEnabled": true,
+          "isAndroidBackgroundLocationEnabled": true,
+          "isAndroidForegroundServiceEnabled": true
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Taga accède à tes photos pour envoyer tes documents chauffeur.",
+          "cameraPermission": "Taga utilise l'appareil photo pour prendre tes documents chauffeur."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#E84B1F"
+        }
+      ]
+    ],
+    "extra": {
+      "variant": "client",
+      "router": {},
+      "eas": {
+        "projectId": "930249f2-2f29-40c3-9288-91d571b00c93"
+      }
+    },
+    "owner": "taga-ml",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/930249f2-2f29-40c3-9288-91d571b00c93"
+    }
+  }
+}
